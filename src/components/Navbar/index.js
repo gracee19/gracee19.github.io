@@ -28,9 +28,9 @@ export default function NavBar() {
           <li class="nav-item">
             {/* <a class="nav-link" href="/portfolio"> */}
             {/* <a href="/portfolio" onClick={Link} to="/portfolio"> */}
-            <a><Link to="/portfolio">
+            <a class="nav-link" href={Link} to="/portfolio">
                Portfolio
-            </Link></a>
+            </a>
             {/* </a> */}
           </li>
           <li class="nav-item">
@@ -41,9 +41,9 @@ export default function NavBar() {
           <li class="nav-item">
             {/* <a class="nav-link" href="/contact"> */}
             {/* <a href="/contact" onClick={Link} to="/contact"> */}
-            <a><Link to="/contact">Contact</Link></a>
+            <a class="nav-link" href={Link} to="/contact">
               Contact
-            {/* </a> */}
+            </a>
             
             {/* </a> */}
           </li>
