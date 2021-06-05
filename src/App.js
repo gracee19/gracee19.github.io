@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch,Link } from "react-router-dom";
 import NavBar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,9 +15,15 @@ function App() {
         <Wrapper>
           <NavBar />
           <Switch>
-            <Route exact path="/" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/">
+              <About/>
+            </Route>
+            <Route path="/portfolio">
+              <Portfolio/>
+            </Route>
+            <Route path="/contact">
+              <Contact/>
+            </Route>
           </Switch>
           <Footer />
         </Wrapper>
