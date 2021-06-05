@@ -27,8 +27,9 @@ export default function NavBar() {
           </li>
           <li class="nav-item">
             {/* <a class="nav-link" href="/portfolio"> */}
-            <Link to="/portfolio"/>
-            Portfolio
+            <p>
+              <Link to="/portfolio"/>Portfolio
+            </p>
             {/* </a> */}
           </li>
           <li class="nav-item">
@@ -38,8 +39,7 @@ export default function NavBar() {
           </li>
           <li class="nav-item">
             {/* <a class="nav-link" href="/contact"> */}
-            <Link to="/contact"/>
-              Contact
+            <p><Link to="/contact"/>Contact</p>
             {/* </a> */}
           </li>
         </ul>
