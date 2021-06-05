@@ -25,7 +25,7 @@ export default function NavBar() {
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/portfolio">
+            <a class="nav-link" href="/Portfolio">
               Portfolio
             </a>
           </li>
@@ -35,7 +35,7 @@ export default function NavBar() {
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">
+            <a class="nav-link" href="/Contact">
               Contact
             </a>
           </li>
