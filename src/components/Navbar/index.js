@@ -28,9 +28,11 @@ export default function NavBar() {
           <li class="nav-item">
             {/* <a class="nav-link" href="/portfolio"> */}
             {/* <a href="/portfolio" onClick={Link} to="/portfolio"> */}
-            <a class="nav-link" href={Link} to="/portfolio">
-               Portfolio
-            </a>
+            {/* <a class="nav-link" href={Link} to="/portfolio"> */}
+            <Link className="nav-link hover" to="/portfolio">
+              Portfolio
+            </Link>
+            {/* </a> */}
             {/* </a> */}
           </li>
           <li class="nav-item">
@@ -41,10 +43,12 @@ export default function NavBar() {
           <li class="nav-item">
             {/* <a class="nav-link" href="/contact"> */}
             {/* <a href="/contact" onClick={Link} to="/contact"> */}
-            <a class="nav-link" href={Link} to="/contact">
+            {/* <a class="nav-link" href={Link} to="/contact"> */}
+            <Link className="nav-link hover" to="/contact">
               Contact
-            </a>
-            
+            </Link>
+              
+            {/* </a> */}
             {/* </a> */}
           </li>
         </ul>
