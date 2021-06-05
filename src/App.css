@@ -42,7 +42,7 @@
 
 footer {
   text-align: center;
-  position: sticky;
+  /* position: sticky; */
   bottom: 0;
 }
 
@@ -71,4 +71,3 @@ i.fab{
 figcaption{
   text-align: center;
 }
-
