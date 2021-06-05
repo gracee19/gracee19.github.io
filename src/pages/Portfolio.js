@@ -12,7 +12,6 @@ const Portfolio = () => {
           </h1>
 
           <div class="row">
-
             <div class="col-md-4">
               <figure class="">
                 <a href="https://ivy-inventory-management.herokuapp.com/dashboard">
@@ -48,21 +47,21 @@ const Portfolio = () => {
             </div>
 
             <div class="col-md-4">
-                <figure class="">
-                  <a href="https://gracee19.github.io/web-api-code-quiz/">
-                    <img
-                      src="/assets/cq.png"
-                      alt="quiz"
-                      class="figure-img img-fluid rounded"
-                    />
+              <figure class="">
+                <a href="https://gracee19.github.io/web-api-code-quiz/">
+                  <img
+                    src="/assets/cq.png"
+                    alt="quiz"
+                    class="figure-img img-fluid rounded"
+                  />
+                </a>
+                <figcaption>
+                  <a href="https://github.com/gracee19/web-api-code-quiz">
+                    Code Quiz
                   </a>
-                  <figcaption>
-                    <a href="https://github.com/gracee19/web-api-code-quiz">
-                      Code Quiz
-                    </a>
-                  </figcaption>
-                </figure>
-              </div>
+                </figcaption>
+              </figure>
+            </div>
             <div class="row">
               
               <div class="col-md-4">
@@ -107,7 +106,9 @@ const Portfolio = () => {
                     />
                   </a>
                   <figcaption>
-                    <a href="https://github.com/gracee19/password-generator">Password Generator</a>
+                    <a href="https://github.com/gracee19/password-generator">
+                      Password Generator
+                    </a>
                   </figcaption>
                 </figure>
               </div>
@@ -137,7 +138,9 @@ const Portfolio = () => {
                     />
                   </a>
                   <figcaption>
-                    <a href="https://github.com/gracee19/employee-directory">Employee Directory</a>
+                    <a href="https://github.com/gracee19/employee-directory">
+                      Employee Directory
+                    </a>
                   </figcaption>
                 </figure>
               </div>
@@ -190,6 +193,6 @@ const Portfolio = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;
