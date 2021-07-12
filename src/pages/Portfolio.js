@@ -145,49 +145,6 @@ const Portfolio = () => {
                 </figure>
               </div>
             </div>
-
-            <h2 class="photos">
-              This are some of the photos that I took in my trip to Kangaroo
-              Island.
-            </h2>
-            <div class="row">
-              <div class="col-md-4">
-                <figure class="figure">
-                  <img
-                    src="/assets/cup.jpg"
-                    alt="cup"
-                    class="figure-img img-fluid rounded"
-                  />
-                </figure>
-              </div>
-              <div class="col-md-4">
-                <figure class="figure">
-                  <img
-                    src="/assets/random.jpg"
-                    alt="person"
-                    class="figure-img img-fluid rounded"
-                  />
-                </figure>
-              </div>
-              <div class="col-md-4">
-                <figure class="figure">
-                  <img
-                    src="/assets/rocks.jpg"
-                    alt="rocks"
-                    class="figure-img img-fluid rounded"
-                  />
-                </figure>
-              </div>
-              <div class="col-md-4">
-                <figure class="figure">
-                  <img
-                    src="/assets/water.jpg"
-                    alt="waves"
-                    class="figure-img img-fluid rounded"
-                  />
-                </figure>
-              </div>
-            </div>
           </div>
         </div>
       </div>
